@@ -40,9 +40,6 @@ $('#number-chooser').submit(function(event) {
   }
   let HTMLstring = result.map(fizzBuzzHTML).join('');
   $('.js-results').html(HTMLstring);
-  
-  //console.log(result);
-  //const map1 = result.map(fizzBuzzHTML());
-  //console.log(map1);
+  $('#number-choice').val('');
 });
 
